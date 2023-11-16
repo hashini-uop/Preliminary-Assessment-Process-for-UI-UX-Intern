@@ -1,0 +1,1 @@
+# Preliminary-Assessment-Process-for-UI-UX-Intern
