@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+    <title>Registration Page</title>
+</head>
+<body>
+    <div class="header">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-nBvUGKFPtAUR8DIGZ1pFqAFi5AWqvQUgRvmk5gXuAA&s" alt="Header Image">
+    </div>
+    <div class="registration-container">
+        <div class="registration-info">
+            <img src="car-image.jpg" alt="Car Image"> // I cannot find the real link
+            <div class="car-description">
+                <h3>Car Name:</h3>
+                <p>Brand: </p>
+                <p>Price: </p>
+            </div>
+        </div>
+        <div class="registration-form">
+            <h2>Registration</h2>
+            <form id="registrationForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <button type="button" onclick="registerUser()">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="scriptReg.js"></script>
+</body>
+</html>
